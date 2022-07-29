@@ -1,5 +1,7 @@
 # FormFirebase
 
+This is a simple project using Angular with Firebase for studies. I used guards to avoid the user to access some pages without sign in and to just access others pages by logging out.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
 
 ## Development server
