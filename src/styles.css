@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import "~@angular/material/prebuilt-themes/purple-green.css";
+.form-container{
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    background-color: rgb(190, 190, 190);
+    padding: 3%;
+    border: 0 solid;
+    border-radius: 25px;
+}
+.form-container mat-form-field {
+    width: 100%;
+}
